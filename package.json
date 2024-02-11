@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node app",
-    "arrays": "node arrays"
+    "arrays": "node arrays",
+    "dev":"nodemon app"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +14,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.1",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "uuid": "^9.0.1"
   }
 }
